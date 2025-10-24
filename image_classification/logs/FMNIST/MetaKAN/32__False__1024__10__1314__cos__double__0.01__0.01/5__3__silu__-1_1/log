@@ -1,0 +1,128 @@
+2025-05-16 16:30:38,481 - root - INFO - MetaKAN(
+  (embeddings): ParameterList(
+      (0): Parameter containing: [torch.float32 of size 25088x1]
+      (1): Parameter containing: [torch.float32 of size 320x1]
+  )
+  (hypernet): ModuleList(
+    (0-1): 2 x Sequential(
+      (0): Linear(in_features=1, out_features=32, bias=True)
+      (1): ReLU()
+      (2): Linear(in_features=32, out_features=9, bias=True)
+    )
+  )
+  (layers): ModuleList(
+    (0-1): 2 x KANLinear(
+      (base_activation): SiLU()
+    )
+  )
+)
+2025-05-16 16:30:38,482 - root - INFO - Number of parameters: 26130
+2025-05-16 16:30:38,835 - root - INFO - Train Epoch: 1 [0/60000 (0%)]	Loss: 2.3829047679901123
+2025-05-16 16:30:39,807 - root - INFO - Train Epoch: 1 [10240/60000 (17%)]	Loss: 1.6873401403427124
+2025-05-16 16:30:40,837 - root - INFO - Train Epoch: 1 [20480/60000 (34%)]	Loss: 1.0950573682785034
+2025-05-16 16:30:41,792 - root - INFO - Train Epoch: 1 [30720/60000 (51%)]	Loss: 0.696839451789856
+2025-05-16 16:30:42,755 - root - INFO - Train Epoch: 1 [40960/60000 (68%)]	Loss: 0.6177042722702026
+2025-05-16 16:30:43,708 - root - INFO - Train Epoch: 1 [51200/60000 (85%)]	Loss: 0.5841074585914612
+2025-05-16 16:30:50,531 - root - INFO - 	train set: Average loss: 0.4937, Accuracy: 49350/60000 (82%)
+2025-05-16 16:30:51,838 - root - INFO - 	test set: Average loss: 0.5231, Accuracy: 8128/10000 (81%)
+2025-05-16 16:30:52,078 - root - INFO - Train Epoch: 2 [1024/60000 (2%)]	Loss: 0.47672349214553833
+2025-05-16 16:30:53,057 - root - INFO - Train Epoch: 2 [11264/60000 (19%)]	Loss: 0.43033602833747864
+2025-05-16 16:30:54,022 - root - INFO - Train Epoch: 2 [21504/60000 (36%)]	Loss: 0.44009536504745483
+2025-05-16 16:30:54,987 - root - INFO - Train Epoch: 2 [31744/60000 (53%)]	Loss: 0.43081966042518616
+2025-05-16 16:30:55,970 - root - INFO - Train Epoch: 2 [41984/60000 (69%)]	Loss: 0.3975820541381836
+2025-05-16 16:30:56,965 - root - INFO - Train Epoch: 2 [52224/60000 (86%)]	Loss: 0.4590134620666504
+2025-05-16 16:31:04,327 - root - INFO - 	train set: Average loss: 0.4213, Accuracy: 51059/60000 (85%)
+2025-05-16 16:31:05,648 - root - INFO - 	test set: Average loss: 0.4518, Accuracy: 8364/10000 (84%)
+2025-05-16 16:31:05,971 - root - INFO - Train Epoch: 3 [2048/60000 (3%)]	Loss: 0.48006412386894226
+2025-05-16 16:31:06,944 - root - INFO - Train Epoch: 3 [12288/60000 (20%)]	Loss: 0.37754398584365845
+2025-05-16 16:31:07,914 - root - INFO - Train Epoch: 3 [22528/60000 (37%)]	Loss: 0.4516099691390991
+2025-05-16 16:31:08,943 - root - INFO - Train Epoch: 3 [32768/60000 (54%)]	Loss: 0.3816899359226227
+2025-05-16 16:31:09,897 - root - INFO - Train Epoch: 3 [43008/60000 (71%)]	Loss: 0.3866439759731293
+2025-05-16 16:31:10,864 - root - INFO - Train Epoch: 3 [53248/60000 (88%)]	Loss: 0.4144943654537201
+2025-05-16 16:31:18,222 - root - INFO - 	train set: Average loss: 0.3924, Accuracy: 51616/60000 (86%)
+2025-05-16 16:31:19,577 - root - INFO - 	test set: Average loss: 0.4288, Accuracy: 8450/10000 (84%)
+2025-05-16 16:31:19,976 - root - INFO - Train Epoch: 4 [3072/60000 (5%)]	Loss: 0.3916713297367096
+2025-05-16 16:31:20,927 - root - INFO - Train Epoch: 4 [13312/60000 (22%)]	Loss: 0.3825080692768097
+2025-05-16 16:31:21,970 - root - INFO - Train Epoch: 4 [23552/60000 (39%)]	Loss: 0.3758305013179779
+2025-05-16 16:31:22,927 - root - INFO - Train Epoch: 4 [33792/60000 (56%)]	Loss: 0.3528730869293213
+2025-05-16 16:31:23,895 - root - INFO - Train Epoch: 4 [44032/60000 (73%)]	Loss: 0.397840291261673
+2025-05-16 16:31:24,849 - root - INFO - Train Epoch: 4 [54272/60000 (90%)]	Loss: 0.37486448884010315
+2025-05-16 16:31:31,970 - root - INFO - 	train set: Average loss: 0.3774, Accuracy: 51848/60000 (86%)
+2025-05-16 16:31:33,404 - root - INFO - 	test set: Average loss: 0.4159, Accuracy: 8486/10000 (85%)
+2025-05-16 16:31:34,002 - root - INFO - Train Epoch: 5 [4096/60000 (7%)]	Loss: 0.3775603175163269
+2025-05-16 16:31:35,081 - root - INFO - Train Epoch: 5 [14336/60000 (24%)]	Loss: 0.35793831944465637
+2025-05-16 16:31:36,127 - root - INFO - Train Epoch: 5 [24576/60000 (41%)]	Loss: 0.36848485469818115
+2025-05-16 16:31:37,162 - root - INFO - Train Epoch: 5 [34816/60000 (58%)]	Loss: 0.3475792407989502
+2025-05-16 16:31:38,212 - root - INFO - Train Epoch: 5 [45056/60000 (75%)]	Loss: 0.3949507772922516
+2025-05-16 16:31:39,221 - root - INFO - Train Epoch: 5 [55296/60000 (92%)]	Loss: 0.39584240317344666
+2025-05-16 16:31:46,193 - root - INFO - 	train set: Average loss: 0.3700, Accuracy: 52016/60000 (87%)
+2025-05-16 16:31:47,500 - root - INFO - 	test set: Average loss: 0.4078, Accuracy: 8533/10000 (85%)
+2025-05-16 16:31:48,119 - root - INFO - Train Epoch: 6 [5120/60000 (8%)]	Loss: 0.39471864700317383
+2025-05-16 16:31:49,138 - root - INFO - Train Epoch: 6 [15360/60000 (25%)]	Loss: 0.33916646242141724
+2025-05-16 16:31:50,120 - root - INFO - Train Epoch: 6 [25600/60000 (42%)]	Loss: 0.35607677698135376
+2025-05-16 16:31:51,074 - root - INFO - Train Epoch: 6 [35840/60000 (59%)]	Loss: 0.3401852548122406
+2025-05-16 16:31:52,023 - root - INFO - Train Epoch: 6 [46080/60000 (76%)]	Loss: 0.40170323848724365
+2025-05-16 16:31:52,987 - root - INFO - Train Epoch: 6 [56320/60000 (93%)]	Loss: 0.3700821101665497
+2025-05-16 16:31:59,644 - root - INFO - 	train set: Average loss: 0.3528, Accuracy: 52457/60000 (87%)
+2025-05-16 16:32:00,979 - root - INFO - 	test set: Average loss: 0.3992, Accuracy: 8556/10000 (86%)
+2025-05-16 16:32:01,666 - root - INFO - Train Epoch: 7 [6144/60000 (10%)]	Loss: 0.341150164604187
+2025-05-16 16:32:02,640 - root - INFO - Train Epoch: 7 [16384/60000 (27%)]	Loss: 0.39634740352630615
+2025-05-16 16:32:03,598 - root - INFO - Train Epoch: 7 [26624/60000 (44%)]	Loss: 0.3276313841342926
+2025-05-16 16:32:04,547 - root - INFO - Train Epoch: 7 [36864/60000 (61%)]	Loss: 0.3287622928619385
+2025-05-16 16:32:05,510 - root - INFO - Train Epoch: 7 [47104/60000 (78%)]	Loss: 0.31251826882362366
+2025-05-16 16:32:06,464 - root - INFO - Train Epoch: 7 [57344/60000 (95%)]	Loss: 0.3686164915561676
+2025-05-16 16:32:15,257 - root - INFO - MetaKAN(
+  (embeddings): ParameterList(
+      (0): Parameter containing: [torch.float32 of size 25088x1]
+      (1): Parameter containing: [torch.float32 of size 320x1]
+  )
+  (hypernet): ModuleList(
+    (0-1): 2 x Sequential(
+      (0): Linear(in_features=1, out_features=32, bias=True)
+      (1): ReLU()
+      (2): Linear(in_features=32, out_features=9, bias=True)
+    )
+  )
+  (layers): ModuleList(
+    (0-1): 2 x KANLinear(
+      (base_activation): SiLU()
+    )
+  )
+)
+2025-05-16 16:32:15,258 - root - INFO - Number of parameters: 26130
+2025-05-16 16:32:16,173 - root - INFO - Train Epoch: 1 [0/60000 (0%)]	Loss: 2.3829047679901123
+2025-05-16 16:32:17,627 - root - INFO - Train Epoch: 1 [10240/60000 (17%)]	Loss: 1.6873525381088257
+2025-05-16 16:32:18,585 - root - INFO - Train Epoch: 1 [20480/60000 (34%)]	Loss: 1.0950262546539307
+2025-05-16 16:32:19,592 - root - INFO - Train Epoch: 1 [30720/60000 (51%)]	Loss: 0.6972815990447998
+2025-05-16 16:32:20,518 - root - INFO - Train Epoch: 1 [40960/60000 (68%)]	Loss: 0.6221858263015747
+2025-05-16 16:32:21,487 - root - INFO - Train Epoch: 1 [51200/60000 (85%)]	Loss: 0.5762876272201538
+2025-05-16 16:32:29,083 - root - INFO - 	train set: Average loss: 0.4909, Accuracy: 49333/60000 (82%)
+2025-05-16 16:32:30,382 - root - INFO - 	test set: Average loss: 0.5192, Accuracy: 8147/10000 (81%)
+2025-05-16 16:32:30,627 - root - INFO - Train Epoch: 2 [1024/60000 (2%)]	Loss: 0.47995245456695557
+2025-05-16 16:32:31,633 - root - INFO - Train Epoch: 2 [11264/60000 (19%)]	Loss: 0.4285641014575958
+2025-05-16 16:32:32,604 - root - INFO - Train Epoch: 2 [21504/60000 (36%)]	Loss: 0.43714335560798645
+2025-05-16 16:32:33,621 - root - INFO - Train Epoch: 2 [31744/60000 (53%)]	Loss: 0.4321325421333313
+2025-05-16 16:32:42,474 - root - INFO - MetaKAN(
+  (embeddings): ParameterList(
+      (0): Parameter containing: [torch.float32 of size 25088x1]
+      (1): Parameter containing: [torch.float32 of size 320x1]
+  )
+  (hypernet): ModuleList(
+    (0-1): 2 x Sequential(
+      (0): Linear(in_features=1, out_features=16, bias=True)
+      (1): ReLU()
+      (2): Linear(in_features=16, out_features=9, bias=True)
+    )
+  )
+  (layers): ModuleList(
+    (0-1): 2 x KANLinear(
+      (base_activation): SiLU()
+    )
+  )
+)
+2025-05-16 16:32:42,475 - root - INFO - Number of parameters: 25778
+2025-05-16 16:32:43,289 - root - INFO - Train Epoch: 1 [0/60000 (0%)]	Loss: 3.1223294734954834
+2025-05-16 16:32:44,679 - root - INFO - Train Epoch: 1 [10240/60000 (17%)]	Loss: 2.3026161193847656
+2025-05-16 16:32:45,594 - root - INFO - Train Epoch: 1 [20480/60000 (34%)]	Loss: 2.3025848865509033
+2025-05-16 16:32:46,536 - root - INFO - Train Epoch: 1 [30720/60000 (51%)]	Loss: 2.3025848865509033
+2025-05-16 16:32:47,422 - root - INFO - Train Epoch: 1 [40960/60000 (68%)]	Loss: 2.3025848865509033

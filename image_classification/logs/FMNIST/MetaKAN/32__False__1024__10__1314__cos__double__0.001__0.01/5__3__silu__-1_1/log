@@ -1,0 +1,100 @@
+2025-05-16 16:32:53,739 - root - INFO - MetaKAN(
+  (embeddings): ParameterList(
+      (0): Parameter containing: [torch.float32 of size 25088x1]
+      (1): Parameter containing: [torch.float32 of size 320x1]
+  )
+  (hypernet): ModuleList(
+    (0-1): 2 x Sequential(
+      (0): Linear(in_features=1, out_features=16, bias=True)
+      (1): ReLU()
+      (2): Linear(in_features=16, out_features=9, bias=True)
+    )
+  )
+  (layers): ModuleList(
+    (0-1): 2 x KANLinear(
+      (base_activation): SiLU()
+    )
+  )
+)
+2025-05-16 16:32:53,740 - root - INFO - Number of parameters: 25778
+2025-05-16 16:32:54,529 - root - INFO - Train Epoch: 1 [0/60000 (0%)]	Loss: 2.3210201263427734
+2025-05-16 16:32:55,924 - root - INFO - Train Epoch: 1 [10240/60000 (17%)]	Loss: 2.0837583541870117
+2025-05-16 16:32:56,893 - root - INFO - Train Epoch: 1 [20480/60000 (34%)]	Loss: 1.2110666036605835
+2025-05-16 16:32:57,809 - root - INFO - Train Epoch: 1 [30720/60000 (51%)]	Loss: 0.7617114186286926
+2025-05-16 16:32:58,707 - root - INFO - Train Epoch: 1 [40960/60000 (68%)]	Loss: 0.6722991466522217
+2025-05-16 16:32:59,622 - root - INFO - Train Epoch: 1 [51200/60000 (85%)]	Loss: 0.5853204131126404
+2025-05-16 16:33:06,557 - root - INFO - 	train set: Average loss: 0.5564, Accuracy: 47857/60000 (80%)
+2025-05-16 16:33:07,578 - root - INFO - 	test set: Average loss: 0.5829, Accuracy: 7885/10000 (79%)
+2025-05-16 16:33:07,782 - root - INFO - Train Epoch: 2 [1024/60000 (2%)]	Loss: 0.5017970204353333
+2025-05-16 16:33:08,705 - root - INFO - Train Epoch: 2 [11264/60000 (19%)]	Loss: 0.5107634663581848
+2025-05-16 16:33:09,673 - root - INFO - Train Epoch: 2 [21504/60000 (36%)]	Loss: 0.4670836925506592
+2025-05-16 16:33:10,633 - root - INFO - Train Epoch: 2 [31744/60000 (53%)]	Loss: 0.4342733323574066
+2025-05-16 16:33:11,577 - root - INFO - Train Epoch: 2 [41984/60000 (69%)]	Loss: 0.421648770570755
+2025-05-16 16:33:12,533 - root - INFO - Train Epoch: 2 [52224/60000 (86%)]	Loss: 0.438313364982605
+2025-05-16 16:33:19,507 - root - INFO - 	train set: Average loss: 0.4415, Accuracy: 50550/60000 (84%)
+2025-05-16 16:33:20,551 - root - INFO - 	test set: Average loss: 0.4759, Accuracy: 8298/10000 (83%)
+2025-05-16 16:33:20,838 - root - INFO - Train Epoch: 3 [2048/60000 (3%)]	Loss: 0.45019590854644775
+2025-05-16 16:33:21,760 - root - INFO - Train Epoch: 3 [12288/60000 (20%)]	Loss: 0.4326252043247223
+2025-05-16 16:33:22,704 - root - INFO - Train Epoch: 3 [22528/60000 (37%)]	Loss: 0.38705453276634216
+2025-05-16 16:33:23,675 - root - INFO - Train Epoch: 3 [32768/60000 (54%)]	Loss: 0.40721139311790466
+2025-05-16 16:33:24,643 - root - INFO - Train Epoch: 3 [43008/60000 (71%)]	Loss: 0.4136323034763336
+2025-05-16 16:33:25,579 - root - INFO - Train Epoch: 3 [53248/60000 (88%)]	Loss: 0.45347654819488525
+2025-05-16 16:33:32,892 - root - INFO - 	train set: Average loss: 0.3923, Accuracy: 51498/60000 (86%)
+2025-05-16 16:33:33,815 - root - INFO - 	test set: Average loss: 0.4263, Accuracy: 8477/10000 (85%)
+2025-05-16 16:33:34,170 - root - INFO - Train Epoch: 4 [3072/60000 (5%)]	Loss: 0.3935682773590088
+2025-05-16 16:33:35,059 - root - INFO - Train Epoch: 4 [13312/60000 (22%)]	Loss: 0.43039047718048096
+2025-05-16 16:33:36,014 - root - INFO - Train Epoch: 4 [23552/60000 (39%)]	Loss: 0.3566499650478363
+2025-05-16 16:33:36,954 - root - INFO - Train Epoch: 4 [33792/60000 (56%)]	Loss: 0.3679153323173523
+2025-05-16 16:33:37,884 - root - INFO - Train Epoch: 4 [44032/60000 (73%)]	Loss: 0.37742891907691956
+2025-05-16 16:33:38,851 - root - INFO - Train Epoch: 4 [54272/60000 (90%)]	Loss: 0.3393876850605011
+2025-05-16 16:33:45,173 - root - INFO - 	train set: Average loss: 0.3754, Accuracy: 51952/60000 (87%)
+2025-05-16 16:33:46,480 - root - INFO - 	test set: Average loss: 0.4162, Accuracy: 8532/10000 (85%)
+2025-05-16 16:33:46,966 - root - INFO - Train Epoch: 5 [4096/60000 (7%)]	Loss: 0.35326480865478516
+2025-05-16 16:33:47,900 - root - INFO - Train Epoch: 5 [14336/60000 (24%)]	Loss: 0.37868237495422363
+2025-05-16 16:33:49,014 - root - INFO - Train Epoch: 5 [24576/60000 (41%)]	Loss: 0.3847198784351349
+2025-05-16 16:33:49,917 - root - INFO - Train Epoch: 5 [34816/60000 (58%)]	Loss: 0.4282990097999573
+2025-05-16 16:33:50,788 - root - INFO - Train Epoch: 5 [45056/60000 (75%)]	Loss: 0.34397250413894653
+2025-05-16 16:33:51,686 - root - INFO - Train Epoch: 5 [55296/60000 (92%)]	Loss: 0.3373829424381256
+2025-05-16 16:33:58,830 - root - INFO - 	train set: Average loss: 0.3594, Accuracy: 52301/60000 (87%)
+2025-05-16 16:34:00,009 - root - INFO - 	test set: Average loss: 0.4022, Accuracy: 8566/10000 (86%)
+2025-05-16 16:34:00,600 - root - INFO - Train Epoch: 6 [5120/60000 (8%)]	Loss: 0.41880670189857483
+2025-05-16 16:34:01,537 - root - INFO - Train Epoch: 6 [15360/60000 (25%)]	Loss: 0.32502469420433044
+2025-05-16 16:34:02,447 - root - INFO - Train Epoch: 6 [25600/60000 (42%)]	Loss: 0.3702657222747803
+2025-05-16 16:34:03,324 - root - INFO - Train Epoch: 6 [35840/60000 (59%)]	Loss: 0.33215585350990295
+2025-05-16 16:34:04,214 - root - INFO - Train Epoch: 6 [46080/60000 (76%)]	Loss: 0.37531203031539917
+2025-05-16 16:34:05,111 - root - INFO - Train Epoch: 6 [56320/60000 (93%)]	Loss: 0.3248276114463806
+2025-05-16 16:34:12,123 - root - INFO - 	train set: Average loss: 0.3429, Accuracy: 52647/60000 (88%)
+2025-05-16 16:34:13,386 - root - INFO - 	test set: Average loss: 0.3907, Accuracy: 8578/10000 (86%)
+2025-05-16 16:34:14,029 - root - INFO - Train Epoch: 7 [6144/60000 (10%)]	Loss: 0.33162811398506165
+2025-05-16 16:34:14,913 - root - INFO - Train Epoch: 7 [16384/60000 (27%)]	Loss: 0.3581467568874359
+2025-05-16 16:34:15,824 - root - INFO - Train Epoch: 7 [26624/60000 (44%)]	Loss: 0.3592177629470825
+2025-05-16 16:34:16,756 - root - INFO - Train Epoch: 7 [36864/60000 (61%)]	Loss: 0.32128697633743286
+2025-05-16 16:34:17,703 - root - INFO - Train Epoch: 7 [47104/60000 (78%)]	Loss: 0.3260810077190399
+2025-05-16 16:34:18,660 - root - INFO - Train Epoch: 7 [57344/60000 (95%)]	Loss: 0.33795735239982605
+2025-05-16 16:34:24,864 - root - INFO - 	train set: Average loss: 0.3358, Accuracy: 52681/60000 (88%)
+2025-05-16 16:34:26,146 - root - INFO - 	test set: Average loss: 0.3890, Accuracy: 8577/10000 (86%)
+2025-05-16 16:34:26,900 - root - INFO - Train Epoch: 8 [7168/60000 (12%)]	Loss: 0.33129799365997314
+2025-05-16 16:34:27,846 - root - INFO - Train Epoch: 8 [17408/60000 (29%)]	Loss: 0.36163076758384705
+2025-05-16 16:34:28,749 - root - INFO - Train Epoch: 8 [27648/60000 (46%)]	Loss: 0.34528160095214844
+2025-05-16 16:34:29,663 - root - INFO - Train Epoch: 8 [37888/60000 (63%)]	Loss: 0.33899757266044617
+2025-05-16 16:34:30,577 - root - INFO - Train Epoch: 8 [48128/60000 (80%)]	Loss: 0.27660229802131653
+2025-05-16 16:34:31,557 - root - INFO - Train Epoch: 8 [58368/60000 (97%)]	Loss: 0.3422786295413971
+2025-05-16 16:34:37,807 - root - INFO - 	train set: Average loss: 0.3271, Accuracy: 52855/60000 (88%)
+2025-05-16 16:34:38,727 - root - INFO - 	test set: Average loss: 0.3807, Accuracy: 8631/10000 (86%)
+2025-05-16 16:34:39,571 - root - INFO - Train Epoch: 9 [8192/60000 (14%)]	Loss: 0.33299362659454346
+2025-05-16 16:34:40,493 - root - INFO - Train Epoch: 9 [18432/60000 (31%)]	Loss: 0.2795875668525696
+2025-05-16 16:34:41,407 - root - INFO - Train Epoch: 9 [28672/60000 (47%)]	Loss: 0.3659430742263794
+2025-05-16 16:34:42,377 - root - INFO - Train Epoch: 9 [38912/60000 (64%)]	Loss: 0.38018113374710083
+2025-05-16 16:34:43,322 - root - INFO - Train Epoch: 9 [49152/60000 (81%)]	Loss: 0.32985249161720276
+2025-05-16 16:34:44,295 - root - INFO - Train Epoch: 9 [35264/60000 (98%)]	Loss: 0.31213563680648804
+2025-05-16 16:34:51,212 - root - INFO - 	train set: Average loss: 0.3212, Accuracy: 53051/60000 (88%)
+2025-05-16 16:34:52,435 - root - INFO - 	test set: Average loss: 0.3805, Accuracy: 8625/10000 (86%)
+2025-05-16 16:34:53,374 - root - INFO - Train Epoch: 10 [9216/60000 (15%)]	Loss: 0.2744751572608948
+2025-05-16 16:34:54,334 - root - INFO - Train Epoch: 10 [19456/60000 (32%)]	Loss: 0.2792952358722687
+2025-05-16 16:34:55,369 - root - INFO - Train Epoch: 10 [29696/60000 (49%)]	Loss: 0.30938559770584106
+2025-05-16 16:34:56,270 - root - INFO - Train Epoch: 10 [39936/60000 (66%)]	Loss: 0.2834773659706116
+2025-05-16 16:34:57,191 - root - INFO - Train Epoch: 10 [50176/60000 (83%)]	Loss: 0.3066651225090027
+2025-05-16 16:35:03,683 - root - INFO - 	train set: Average loss: 0.3202, Accuracy: 53018/60000 (88%)
+2025-05-16 16:35:04,777 - root - INFO - 	test set: Average loss: 0.3785, Accuracy: 8665/10000 (87%)
+2025-05-16 16:35:04,777 - root - INFO - total training time: 56.039062800002284 seconds; average training time per epoch: 5.603906280000229 seconds
+2025-05-16 16:35:04,777 - root - INFO - training process was finished

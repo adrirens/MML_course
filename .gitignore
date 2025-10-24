@@ -1,0 +1,14 @@
+solving_pde/models/__pycache__/metakan.cpython-310.pyc
+solving_pde/models/__pycache__/kan.cpython-310.pyc
+solving_pde/models/__pycache__/metakan.cpython-310.pyc
+*.pyc
+*.gz
+image_classification_conv/data/MNIST/raw/train-labels-idx1-ubyte
+image_classification_conv/data/MNIST/raw/t10k-labels-idx1-ubyte
+image_classification_conv/data/MNIST/raw/t10k-images-idx3-ubyte
+image_classification_conv/data/MNIST/raw/train-images-idx3-ubyte
+/image_classification_conv/logs
+*.pyc
+*.pyc
+/function_fitting/figures
+*.png

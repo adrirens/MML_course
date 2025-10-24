@@ -1,0 +1,50 @@
+2025-05-16 16:22:38,378 - root - INFO - MetaKAN(
+  (embeddings): ParameterList(
+      (0): Parameter containing: [torch.float32 of size 25088x3]
+      (1): Parameter containing: [torch.float32 of size 320x3]
+  )
+  (hypernet): ModuleList(
+    (0-1): 2 x Sequential(
+      (0): Linear(in_features=3, out_features=32, bias=True)
+      (1): ReLU()
+      (2): Linear(in_features=32, out_features=9, bias=True)
+    )
+  )
+  (layers): ModuleList(
+    (0-1): 2 x KANLinear(
+      (base_activation): SiLU()
+    )
+  )
+)
+2025-05-16 16:22:38,379 - root - INFO - Number of parameters: 77074
+2025-05-16 16:22:56,131 - root - INFO - MetaKAN(
+  (embeddings): ParameterList(
+      (0): Parameter containing: [torch.float32 of size 25088x3]
+      (1): Parameter containing: [torch.float32 of size 320x3]
+  )
+  (hypernet): ModuleList(
+    (0-1): 2 x Sequential(
+      (0): Linear(in_features=3, out_features=32, bias=True)
+      (1): ReLU()
+      (2): Linear(in_features=32, out_features=9, bias=True)
+    )
+  )
+  (layers): ModuleList(
+    (0-1): 2 x KANLinear(
+      (base_activation): SiLU()
+    )
+  )
+)
+2025-05-16 16:22:56,132 - root - INFO - Number of parameters: 77074
+2025-05-16 16:22:56,473 - root - INFO - Train Epoch: 1 [0/60000 (0%)]	Loss: 2.3528029918670654
+2025-05-16 16:22:57,403 - root - INFO - Train Epoch: 1 [10240/60000 (17%)]	Loss: 2.2796037197113037
+2025-05-16 16:22:58,378 - root - INFO - Train Epoch: 1 [20480/60000 (34%)]	Loss: 2.1984446048736572
+2025-05-16 16:22:59,272 - root - INFO - Train Epoch: 1 [30720/60000 (51%)]	Loss: 2.121556043624878
+2025-05-16 16:23:00,185 - root - INFO - Train Epoch: 1 [40960/60000 (68%)]	Loss: 1.9690828323364258
+2025-05-16 16:23:01,082 - root - INFO - Train Epoch: 1 [51200/60000 (85%)]	Loss: 1.7245776653289795
+2025-05-16 16:23:07,710 - root - INFO - 	train set: Average loss: 1.4393, Accuracy: 33234/60000 (55%)
+2025-05-16 16:23:09,017 - root - INFO - 	test set: Average loss: 1.4477, Accuracy: 5517/10000 (55%)
+2025-05-16 16:23:09,255 - root - INFO - Train Epoch: 2 [1024/60000 (2%)]	Loss: 1.3541615009307861
+2025-05-16 16:23:10,212 - root - INFO - Train Epoch: 2 [11264/60000 (19%)]	Loss: 1.0550554990768433
+2025-05-16 16:23:11,138 - root - INFO - Train Epoch: 2 [21504/60000 (36%)]	Loss: 0.8434979915618896
+2025-05-16 16:23:12,097 - root - INFO - Train Epoch: 2 [31744/60000 (53%)]	Loss: 0.7685882449150085
