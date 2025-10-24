@@ -1,3 +1,5 @@
+Project to study the MetaKan for school, here it'ss the original work
+
 # MetaKAN
 Official Code Implementation of "Improving Memory Efficiency for Training KANs via Meta Learning"  
 📄 [Paper Link (arXiv:2506.07549)](https://arxiv.org/pdf/2506.07549)
